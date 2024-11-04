@@ -1,0 +1,29 @@
+### Updated Project Plan
+
+#### 1. Data Processing & Statistical Analysis
+- **Statistical Measures**: Using `NumPy`, we’ll calculate the **max**, **min**, **range**, **mean**, **median**, and **mode** for temperature and wind speed data.
+- **Total Precipitation**: As precipitation data isn’t available here, we’ll focus only on temperature and wind speed analysis.
+  
+#### 2. Visualizations
+- **Tables**: Create summary tables showing statistical values for temperature and wind speed.
+- **Line Graph**: Plot temperature and wind speed over time, emphasizing trends and patterns.
+- **Bar Graph**: Use a bar chart to visualize daily wind speed ranges, which allows easy comparison of wind speed fluctuations.
+- **Climograph (Temperature and Wind Speed)**: Display monthly temperature and wind speed to provide a holistic view of the area's climate.
+
+---
+
+### Explanation of the Code
+
+1. **Data Fetching and Parsing**:
+   - Fetch hourly temperature, humidity, and wind speed data for Berlin.
+   - Convert the JSON response to a DataFrame for easier handling.
+
+2. **Statistical Analysis**:
+   - Calculate maximum, minimum, range, mean, median, and mode for both temperature and wind speed.
+
+3. **Visualizations**:
+   - **Line Graph**: A line graph to show temperature and wind speed over time, which highlights trends and fluctuations.
+   - **Bar Graph**: A bar chart showing the daily wind speed range, enabling easy comparison of fluctuations.
+   - **Climograph**: Displays monthly averages of temperature and wind speed. It combines a bar graph (wind speed) and a line graph (temperature), giving a clear overview of the monthly climate pattern.
+
+This approach focuses on key statistical measures, trend analysis, and seasonal patterns, making it practical yet insightful for climate analysis. Would you like to add anything further or focus on specific statistical analyses?
